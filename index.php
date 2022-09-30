@@ -19,7 +19,7 @@
 
 $appid="wx84abc32e07aaa312";   // 公众号 appid
 $secret="45ae7ed16f8d1c9b1e11f9fac4e799db"; // 公众号 secret
-$touser="os5sX6CL0iqu63GNGn4IqwbzLOtw";  // 用户 touser
+$touser='os5sX6CL0iqu63GNGn4IqwbzLOtw，os5sX6JMDGRVyPektFqTVlL6yias';  // 用户 touser
 $template_id="	crM_joau7zXr0bGP9L5vZ6zrn2DBvP6GXH--Up_5IR8"; //模板 id
 $city="云南";// 天气城市
 
@@ -75,11 +75,7 @@ function postweixin($appid,$secret,$touser,$template_id,$city,$tianhkey){
                 "color"=>randColor() 
             ],
             "birthday1"=>[
-                "value"=>getbirthdaytime("2022-11-11"),
-                "color"=>randColor() 
-            ],
-            "birthday2"=>[
-                "value"=>getbirthdaytime("2023-01-01"),
+                "value"=>getbirthdaytime("2003-05-13"),
                 "color"=>randColor() 
             ],
             "note_en"=>[
