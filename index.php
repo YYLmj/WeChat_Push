@@ -71,11 +71,11 @@ function postweixin($appid,$secret,$touser,$template_id,$city,$tianhkey){
                  "color"=>randColor()
             ],
             "love_day"=>[
-                "value"=>getComputetime("2022-06-07"),
+                "value"=>getComputetime("2022-01-13"),
                 "color"=>randColor() 
             ],
             "birthday1"=>[
-                "value"=>getbirthdaytime("2003-05-13"),
+                "value"=>getbirthdaytime("2003-04-08"),
                 "color"=>randColor() 
             ],
             "note_en"=>[
