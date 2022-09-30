@@ -17,14 +17,13 @@
 // {{note_ch.DATA}}
 
 
-$appid="wxd460dc747824b5d9";   // 公众号 appid
-$secret="bd2dce7b0786ae4c75de88273f6c9a9d"; // 公众号 secret
-$touser="obmB75jc_GTn9LiV8oA8MQZY07CQ";  // 用户 touser
-$template_id="-YwzhNSJMes8MaMkT9QQ9fX5cEmk1mrUAVse2O8KM1g"; //模板 id
-$tianhkey="";
-$city="成都";// 天气城市
+$appid="wx84abc32e07aaa312";   // 公众号 appid
+$secret="45ae7ed16f8d1c9b1e11f9fac4e799db"; // 公众号 secret
+$touser="os5sX6CL0iqu63GNGn4IqwbzLOtw";  // 用户 touser
+$template_id="	crM_joau7zXr0bGP9L5vZ6zrn2DBvP6GXH--Up_5IR8"; //模板 id
+$city="云南";// 天气城市
 
-$postData=postweixin($appid,$secret,$touser,$template_id,$city,$tianhkey);
+$postData=postweixin($appid,$secret,$touser,$template_id,$city,);
 $jsonData=json_decode($postData,true);
 if($jsonData["errcode"]==0){
     echo json_encode(["code"=>200,"msg"=>"推送成功！"]);
